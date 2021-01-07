@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans:ital@1&family=Libre+Baskerville&display=swap');
+
+*{
+    padding:0px;
+    border:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+}
+
+.container{
+    padding: 15% 5% auto 5%;
+    display:flex;
+    flex-direction: column;
+   
+
+}
+
+.row{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 4px;
+    font-size: 300%;
+ 
+}
+
+.top{
+    background-image: linear-gradient(rgba(85, 85, 85, 0.705), rgba(85, 85, 85, 0.705)), url(pics/Bullet-Journal-To-Do-List-1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:45vh;
+    
+}
+
+.buttom{
+    background-color: rgb(255, 253, 253);
+    height: 55vh;
+}
+
+.top .row:first-child{
+    padding-top: 80px;
+}
+
+.top .row:last-child{
+    padding-top: 45px;
+}
+.help-text{
+    width:600px;
+    margin-left: 28%;
+    padding:4px 5px 2px 5px;
+    border-radius: 8px;
+    background: rgba(179, 179, 179, 0.678);
+    box-shadow: 2px 2px 5px rgba(105, 105, 105, 0.534);
+}
+
+.help-text p{
+    margin-bottom: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.one{color:rgb(235, 235, 5);}
+.two{color: rgb(6, 255, 6);}
+
+
+
+#user-input{
+    font-size: 20px;
+    width:700px;
+    padding:10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input{
+    border-bottom: 1px solid rgb(177, 176, 176);
+    padding-bottom: 15px;
+    background-color: rgb(216, 216, 216);
+    display:flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#user-input:focus{
+    outline: none;
+    border:1px solid rgb(255, 0, 119);
+}
+
+#enter:link,
+#enter:visited{
+    color:black;
+    padding:6px;
+    border-radius: 5px;
+    background-color:rgb(247, 247, 247);
+    transition: color .3s , box-shadow .3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enter:hover{
+    box-shadow: 2px 2px 2px rgb(165, 165, 165);
+    color:rgb(128, 128, 1);
+}
+
+
+#enter ion-icon{
+    font-size: 25px;
+    padding-top:3px;
+    
+}
+
+
+.item{
+    width:650px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+    display:flex;
+    justify-content: space-between;
+    margin-left:25%;
+    padding:5px 4px 5px 8px;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 15px auto;
+}
+
+
+.cross{
+    color:black;
+}
+
+
+.green{
+    background-color: #6ff172 !important;
+}
+
+
